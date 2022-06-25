@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button/Button";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {`Click me!`}
+          <Button variant="contained">Click me!</Button>
         </a>
       </header>
     </div>
